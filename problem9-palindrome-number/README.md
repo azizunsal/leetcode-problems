@@ -15,4 +15,6 @@ Output: true
 Explanation: 121 reads as 121 from left to right and from right to left.
 ```
 
-__Follow up:__ Could you solve it without converting the integer to a string?
+TODOs:
+---
+- [] Could you solve it without converting the integer to a string?
