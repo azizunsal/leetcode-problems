@@ -11,7 +11,7 @@ name = "problem14-longest-common-prefix"
 version = "0.1.0"
 
 [[package]]
-name = "problem2-add-two-numbers"
+name = "problem3-longest-substring-without-repeating-characters"
 version = "0.1.0"
 
 [[package]]
