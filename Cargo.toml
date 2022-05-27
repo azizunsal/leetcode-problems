@@ -4,6 +4,7 @@ members=[
     "problem1-two-sum",
     "problem3-longest-substring-without-repeating-characters",
     "problem4-median-of-two-sorted-arrays",
+    "problem6-zigzag-conversion",
     "problem9-palindrome-number",
     "problem14-longest-common-prefix",
     "problem32-longest-valid-parentheses",
