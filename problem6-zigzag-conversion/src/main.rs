@@ -1,10 +1,14 @@
+use std::time::{Duration, Instant};
+
 fn main() {
     let s: String = String::from("PAYPALISHIRING");
     let num_rows: i32 = 4;
 
     println!("{} will be formatted with ZigZag formation in {} rows.", s, num_rows);
+    let st = Instant::now();
     let result = convert(s, num_rows);
-    println!("Result is {}", result);
+    let elapsed_time: Duration = st.elapsed();
+    println!("Result is {}. Elapsed time {:?}", result, elapsed_time);
 }
 
 #[allow(dead_code)]
@@ -76,9 +80,11 @@ fn convert(s: String, num_rows: i32) -> String {
         }
     }
 
+    // let arr: String = zigzag_table.into_iter().flatten().filter(|a_chr| *a_chr != '-').collect();
+    // arr
+
     result_str
 }
-
 
 #[cfg(test)]
 mod test {
