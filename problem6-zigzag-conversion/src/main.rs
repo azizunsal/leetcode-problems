@@ -7,6 +7,7 @@ fn main() {
     println!("Result is {}", result);
 }
 
+#[allow(dead_code)]
 fn print_array(arr: &[[char; 100]; 100]) {
     for (p, el) in arr.iter().enumerate() {
         println!("  >>row={} / col {:?}", p, el);
@@ -64,7 +65,7 @@ fn convert(s: String, num_rows: i32) -> String {
         // print_array(&zigzag_table);
     }
 
-    print_array(&zigzag_table);
+    // print_array(&zigzag_table);
 
     for (_, el) in zigzag_table.iter().enumerate() {
         for (_, s_el) in el.iter().enumerate() {
