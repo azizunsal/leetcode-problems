@@ -26,4 +26,4 @@ Source is [here](https://leetcode.com/problems/longest-palindromic-substring/).
 
 TODOs
 ---
-- [] Make it clear some important blocks in the `optimized` version of this solution.
+- [ ] Make it clear some important blocks in the `optimized` version of this solution.
