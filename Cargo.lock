@@ -7,6 +7,14 @@ name = "problem1-two-sum"
 version = "0.1.0"
 
 [[package]]
+name = "problem10-regular-expression-matching"
+version = "0.1.0"
+
+[[package]]
+name = "problem12-integer-to-roman"
+version = "0.1.0"
+
+[[package]]
 name = "problem14-longest-common-prefix"
 version = "0.1.0"
 

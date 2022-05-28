@@ -7,6 +7,8 @@ members=[
     "problem6-zigzag-conversion",
     "problem7-reverse-integer",
     "problem9-palindrome-number",
+    "problem10-regular-expression-matching",
+    "problem12-integer-to-roman",
     "problem14-longest-common-prefix",
     "problem32-longest-valid-parentheses",
 ]
