@@ -9,7 +9,6 @@ members=[
     "problem9-palindrome-number",
     "problem10-regular-expression-matching",
     "problem12-integer-to-roman",
-    "problem14-longest-common-prefix",
-    "problem32-longest-valid-parentheses",
+    "problem14-longest-common-prefix"
 ]
 
