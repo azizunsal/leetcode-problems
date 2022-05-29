@@ -1,22 +1,9 @@
-// https://leetcode.com/problems/longest-common-prefix/
 fn main() {
-    // let strs_1: Vec<String> = vec![
-    //     "flower".to_string(),
-    //     "flow".to_string(),
-    //     "flight".to_string(),
-    // ];
-    let strs_2: Vec<String> = vec!["dog".to_string(), "racecar".to_string(), "car".to_string()];
-    // let strs_3: Vec<String> = vec![
-    //     "reflower".to_string(),
-    //     "flow".to_string(),
-    //     "flight".to_string(),
-    // ];
-
-    let result = longest_common_prefix(strs_2);
-    println!("Output :{}", result);
+    let strs: Vec<String> = vec!["dog".to_string(), "racecar".to_string(), "car".to_string()];
+    let result = longest_common_prefix(strs);
+    println!("Output:{}", result);
 }
-// Write a function to find the longest common prefix string amongst an array of strings.
-// If there is no common prefix, return an empty string "".
+
 fn longest_common_prefix(strs: Vec<String>) -> String {
     // Get the shortest str
     let shortest_str = get_shortest_word(&strs);
@@ -34,7 +21,6 @@ fn longest_common_prefix(strs: Vec<String>) -> String {
     let mut common_word = String::from("");
     for i in (1..shortest_str.len() + 1).rev() {
         let w = &shortest_str[0..i];
-        println!("W is {}", w);
         let rex = test_word(&new_vector, &w.to_string());
         if rex {
             common_word = w.to_string();
@@ -63,5 +49,22 @@ fn get_shortest_word(strs: &Vec<String>) -> String {
         return shortest_str.to_owned();
     } else {
         return String::from("");
+    }
+}
+
+#[cfg(test)]
+mod test {
+    use crate::longest_common_prefix;
+
+    #[test]
+    fn test_with_no_common() {
+        let strs = vec!["dog".to_string(), "racecar".to_string(), "car".to_string()];
+        assert_eq!("", longest_common_prefix(strs));
+    }
+
+    #[test]
+    fn test_with_common() {
+        let strs = vec!["flower".to_string(), "flow".to_string(), "flight".to_string()];
+        assert_eq!("fl", longest_common_prefix(strs));
     }
 }
