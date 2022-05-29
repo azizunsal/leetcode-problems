@@ -15,6 +15,10 @@ name = "problem12-integer-to-roman"
 version = "0.1.0"
 
 [[package]]
+name = "problem13-roman-to-integer"
+version = "0.1.0"
+
+[[package]]
 name = "problem14-longest-common-prefix"
 version = "0.1.0"
 
