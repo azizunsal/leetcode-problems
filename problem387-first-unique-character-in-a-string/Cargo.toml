@@ -1,0 +1,6 @@
+[workspace]
+
+members=[
+    "with-brute-force",
+    "with-hashmap",
+]
