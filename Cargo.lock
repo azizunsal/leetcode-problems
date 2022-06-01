@@ -23,6 +23,10 @@ name = "problem14-longest-common-prefix"
 version = "0.1.0"
 
 [[package]]
+name = "problem217-contains-duplicate"
+version = "0.1.0"
+
+[[package]]
 name = "problem3-longest-substring-without-repeating-characters"
 version = "0.1.0"
 
@@ -32,6 +36,10 @@ version = "0.1.0"
 
 [[package]]
 name = "problem6-zigzag-conversion"
+version = "0.1.0"
+
+[[package]]
+name = "problem64-minimum-path-sum"
 version = "0.1.0"
 
 [[package]]

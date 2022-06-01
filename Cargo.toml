@@ -10,6 +10,8 @@ members=[
     "problem10-regular-expression-matching",
     "problem12-integer-to-roman",
     "problem13-roman-to-integer",
-    "problem14-longest-common-prefix"
+    "problem14-longest-common-prefix",
+    "problem64-minimum-path-sum",
+    "problem217-contains-duplicate",
 ]
 
