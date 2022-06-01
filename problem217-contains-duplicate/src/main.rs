@@ -45,19 +45,19 @@ fn contains_duplicate(nums: Vec<i32>) -> bool {
 
     let mut map: HashMap<i32, i32> = HashMap::new();
 
-    for (_, el) in nums.iter().enumerate() {
-        if map.contains_key(el) {
+    for num in &nums {
+        if map.contains_key(num) {
             // No need to collect recurring items. Just 1 is OK to return the result!
             // *map.get_mut(el).unwrap() += 1;
             return true;
         } else {
-            map.insert(*el, 1);
+            map.insert(*num, 1);
         }
     }
 
     false
 
-    
+    // No need to collect recurring items. Just 1 is OK to return the result!
     // let a = map.iter().filter(|(_, v)| *v > &1).map(|(_, b)| b).collect::<Vec<&i32>>();
     // println!("There are {} items which repeats", a.len());
     // a.len() > 0
