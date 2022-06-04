@@ -12,6 +12,7 @@ members=[
     "problem13-roman-to-integer",
     "problem14-longest-common-prefix",
     "problem64-minimum-path-sum",
+    "problem136-single-number",
     "problem217-contains-duplicate",
 ]
 
