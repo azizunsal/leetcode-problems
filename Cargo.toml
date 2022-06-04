@@ -14,5 +14,6 @@ members=[
     "problem64-minimum-path-sum",
     "problem136-single-number",
     "problem217-contains-duplicate",
+    "problem349-intersection-of-two-arrays",
 ]
 

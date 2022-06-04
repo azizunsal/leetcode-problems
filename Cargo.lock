@@ -35,6 +35,10 @@ name = "problem3-longest-substring-without-repeating-characters"
 version = "0.1.0"
 
 [[package]]
+name = "problem349-intersection-of-two-arrays"
+version = "0.1.0"
+
+[[package]]
 name = "problem4-median-of-two-sorted-arrays"
 version = "0.1.0"
 
