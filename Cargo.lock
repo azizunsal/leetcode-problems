@@ -55,6 +55,10 @@ name = "problem64-minimum-path-sum"
 version = "0.1.0"
 
 [[package]]
+name = "problem66-plus-one"
+version = "0.1.0"
+
+[[package]]
 name = "problem7-reverse-integer"
 version = "0.1.0"
 
