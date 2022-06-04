@@ -1,9 +1,9 @@
 fn main() {
-    let mut _nums = vec![1, 2, 3, 4, 5, 6, 7];
-    let _k = 3;
+    // let mut _nums = vec![-1, -100, 3, 99];
+    // let _k = 2;
 
-    let mut _nums = vec![1, 2];
-    let _k = 3;
+    let mut _nums = vec![1, 2,3];
+    let _k = 2;
 
     rotate(&mut _nums, _k);
     println!("Rotated array is {:?}", _nums);
@@ -16,14 +16,18 @@ fn rotate(nums: &mut Vec<i32>, k: i32) {
     }
 
     let optimized_k = k % orig_l as i32;
-    println!("Resized array is {:?}. k={} and the optimized k: {}", nums, k, optimized_k);
-    nums.resize(nums.len() * 2, 0);
+    println!("Array length={}, k={} and the optimized k= {}", orig_l, k, optimized_k);
+    // Aslinda burada yaptigim, teknik olarak, yeni bir array yaratmak ile ayni sey.
+    nums.resize(nums.len() * 2, 8888);
     for i in 0..orig_l {
         let mut new_index = i + optimized_k as usize;
+        println!(" ->nex_index = {}", new_index);
         if new_index < orig_l {
             new_index = new_index + orig_l;
+            println!(" -->nex_index = {}", new_index);
         }
         nums[new_index] = nums[i];
+        println!(" =>arr {:?}", nums);
     }
 
     let new_vec = nums
