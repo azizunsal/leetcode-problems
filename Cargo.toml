@@ -15,5 +15,6 @@ members=[
     "problem136-single-number",
     "problem217-contains-duplicate",
     "problem349-intersection-of-two-arrays",
+    "problem350-intersection-of-two-arrays-ii",
 ]
 
