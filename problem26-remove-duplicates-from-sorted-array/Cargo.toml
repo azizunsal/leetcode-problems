@@ -1,0 +1,6 @@
+[workspace]
+
+members=[
+	"two-pointers",
+	"two-loops",
+]
