@@ -19,5 +19,6 @@ members=[
     "problem349-intersection-of-two-arrays",
     "problem350-intersection-of-two-arrays-ii",
     "problem121-best-time-to-buy-and-sell-stock",
+    "problem122-best-time-to-buy-and-sell-stock-ii",
 ]
 

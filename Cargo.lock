@@ -19,6 +19,10 @@ name = "problem121-best-time-to-buy-and-sell-stock"
 version = "0.1.0"
 
 [[package]]
+name = "problem122-best-time-to-buy-and-sell-stock-ii"
+version = "0.1.0"
+
+[[package]]
 name = "problem13-roman-to-integer"
 version = "0.1.0"
 
