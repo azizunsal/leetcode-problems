@@ -11,6 +11,7 @@ members=[
     "problem12-integer-to-roman",
     "problem13-roman-to-integer",
     "problem14-longest-common-prefix",
+    "problem48-rotate-image",
     "problem64-minimum-path-sum",
     "problem66-plus-one",
     "problem136-single-number",

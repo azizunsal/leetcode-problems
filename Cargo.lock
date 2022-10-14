@@ -59,6 +59,10 @@ name = "problem4-median-of-two-sorted-arrays"
 version = "0.1.0"
 
 [[package]]
+name = "problem48-rotate-image"
+version = "0.1.0"
+
+[[package]]
 name = "problem6-zigzag-conversion"
 version = "0.1.0"
 
