@@ -15,8 +15,8 @@ impl ListNode {
 
 fn main() {
     let start = Instant::now();
-    let l1: Option<Box<ListNode>> = create_list_from_value_array(&[2, 4, 3]);
-    let l2: Option<Box<ListNode>> = create_list_from_value_array(&[5, 6, 4]);
+    let l1: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9, 9, 9, 9]);
+    let l2: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9]);
     let result: Option<Box<ListNode>> = add_two_numbers(l1, l2);
     println!("result= {:?}. time= {:?}", result, start.elapsed());
 }
@@ -74,8 +74,12 @@ fn sum_two_digit_arrays(arr1: &mut Vec<i32>, arr2: &mut Vec<i32>) -> Vec<i32> {
         let digit1 = arr1[i];
         let digit2 = arr2[i];
         let mut sum = digit1 + digit2 + carry;
-        carry = if sum >= 10 { sum / 10 } else { 0 };
-        sum = if sum >= 10 { sum - 10 } else { sum };
+
+        if sum >= 10 {
+            carry = sum / 10;
+            sum = sum - 10;
+        } else { carry = 0 }
+
         println!("{} + {} = {}, carry= {}", digit1, digit2, sum, carry);
         sum_arr.push(sum);
     }
