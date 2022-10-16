@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/problem1-two-sum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem10-regular-expression-matching/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem12-integer-to-roman/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem13-roman-to-integer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem14-longest-common-prefix/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem3-longest-substring-without-repeating-characters/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem4-median-of-two-sorted-arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem6-zigzag-conversion/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem64-minimum-path-sum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem7-reverse-integer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem9-palindrome-number/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem217-contains-duplicate/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem136-single-number/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem283-move-zeroes/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem349-intersection-of-two-arrays/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem350-intersection-of-two-arrays-ii/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem66-plus-one/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/fibonacci/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/problem121-best-time-to-buy-and-sell-stock/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

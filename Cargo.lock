@@ -35,6 +35,10 @@ name = "problem14-longest-common-prefix"
 version = "0.1.0"
 
 [[package]]
+name = "problem2-add-two-numbers"
+version = "0.1.0"
+
+[[package]]
 name = "problem217-contains-duplicate"
 version = "0.1.0"
 

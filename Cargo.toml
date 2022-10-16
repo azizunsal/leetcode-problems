@@ -2,6 +2,7 @@
 
 members=[
     "problem1-two-sum",
+    "problem2-add-two-numbers",
     "problem3-longest-substring-without-repeating-characters",
     "problem4-median-of-two-sorted-arrays",
     "problem6-zigzag-conversion",
