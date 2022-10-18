@@ -11,6 +11,10 @@ name = "problem10-regular-expression-matching"
 version = "0.1.0"
 
 [[package]]
+name = "problem1089-duplicate-zeros"
+version = "0.1.0"
+
+[[package]]
 name = "problem12-integer-to-roman"
 version = "0.1.0"
 

@@ -22,5 +22,6 @@ members=[
     "problem350-intersection-of-two-arrays-ii",
     "problem121-best-time-to-buy-and-sell-stock",
     "problem122-best-time-to-buy-and-sell-stock-ii",
+    "problem1089-duplicate-zeros",
 ]
 
