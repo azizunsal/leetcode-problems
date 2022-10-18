@@ -15,8 +15,10 @@ impl ListNode {
 
 fn main() {
     let start = Instant::now();
-    let l1: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9, 9, 9, 9]);
-    let l2: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9]);
+    // let l1: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9, 9, 9, 9]);
+    // let l2: Option<Box<ListNode>> = create_list_from_value_array(&[9, 9, 9, 9]);
+    let l1: Option<Box<ListNode>> = create_list_from_value_array(&[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]);
+    let l2: Option<Box<ListNode>> = create_list_from_value_array(&[5, 6, 4]);
     let result: Option<Box<ListNode>> = add_two_numbers(l1, l2);
     println!("result= {:?}. time= {:?}", result, start.elapsed());
 }
@@ -136,6 +138,13 @@ mod test {
 
     #[test]
     fn test_5() {
+        let l1: Option<Box<ListNode>> = create_list_from_value_array(&[2, 4, 3]);
+        let l2: Option<Box<ListNode>> = create_list_from_value_array(&[9, 8, 1, 7, 4]);
+        assert_eq!(vec![1,3,5,7,4], create_array_from_list(add_two_numbers(l1, l2)));
+    }
+
+    #[test]
+    fn test_6() {
         let l1: Option<Box<ListNode>> = create_list_from_value_array(&[1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]);
         let l2: Option<Box<ListNode>> = create_list_from_value_array(&[5, 6, 4]);
         let mut res: Vec<i32> = vec![1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 6, 6];
